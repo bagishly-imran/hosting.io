@@ -20,7 +20,8 @@ function App() {
           <Navbar/>
           
           <Switch>
-            <Route exact path = "/hosting.io" component = {Index}/>  
+            <Route exact path = "/" component = {Index}/>  
+            <Route path = "/hosting.io" component = {Index}/>  
             <Route path = '/packages' component = {Packages}/>
             <Route path = '/help' component = {Help}/>
             <Route path = '/contact' component = {Contact}/>
