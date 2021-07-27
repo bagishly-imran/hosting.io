@@ -38,12 +38,12 @@ const ScrollMenu = () => {
     return (
         <div className = "scroll-menu" id = "navbar-menu">
             <div className = "header-one nav container">
-                <Link to = '/' className = "logo">
+                <Link to = '/hosting.io' className = "logo">
                     <img src = {Logo} alt = "logo"/>
                 </Link>
 
                 <ul className = "menu-list nav">
-                    <Link to = '/'>
+                    <Link to = '/hosting.io'>
                         <li className = "menu-item">Home</li>
                     </Link>
                     <Link to = '/packages'>

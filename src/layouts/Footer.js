@@ -8,7 +8,7 @@ const Footer = () =>  {
             <div className = "footer-one container nav flex-wrap">
 
                 <div className = "single-footer-caption col-12 col-sm-6 col-lg-3">
-                    <Link to = '/' className = "text-start">
+                    <Link to = '/hosting.io' className = "text-start">
                         <img src ={Logo} alt ="Logo"/>
                     </Link>
 

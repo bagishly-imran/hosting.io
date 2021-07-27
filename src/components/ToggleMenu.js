@@ -9,7 +9,7 @@ const ToggleMenu = () => {
 
             <ul className = "toggle-menu-list container">
 
-                <Link to = '/'>
+                <Link to = '/hosting.io'>
                     <li className = "menu-item">Home</li>
                 </Link>
                 <Link to = '/packages'>
