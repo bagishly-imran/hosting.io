@@ -1,0 +1,44 @@
+.help{
+    .help-center{
+        height: 400px;
+        background-color: #4C1E51;
+        h1{
+            color: #ffffff;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+}
+
+
+.faq{
+    background-color: #ffffff;
+    .section-title{
+        h2{
+            color: #4C1E51;
+        }
+        p{
+            color: #363636;
+        }
+    }
+
+    .faq-content{
+        padding-bottom: 30px;
+        .my-faq{
+            width: 50%;
+            padding: 15px;
+            h4{
+                color: #4C1E51;
+                font-family: "Poppins", sans-serif;
+            }
+            p{
+                color: #363636;
+                font-family: "Open Sans", sans-serif;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .my-faq{width: 100% !important;}
+}

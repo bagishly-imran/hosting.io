@@ -1,0 +1,82 @@
+.packages-caption{
+    background-color: #4C1E51;
+    background-clip: padding-box;
+
+    .packages-content{
+        margin: 20px 0;
+        justify-content: space-around;
+        .my-pack{
+            width: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 70px 0;
+            margin: 15px 0;
+            color: #4C1E51; 
+            // box-shadow: 0 2px 6px 0 #b4b4b4;
+            .price-head{
+                font-family: "Poppins", sans-serif;
+                padding: 20px 0;
+            }
+            .price-total{
+                font-family: "Poppins", sans-serif;
+                padding-top: 15px;
+                sub{
+                    font-size: 14px;
+                }
+            }
+            hr{width: 100%; color: #b4b4b4;}
+            .pack-list{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                list-style: none;
+                margin-bottom: 20px;
+                padding: 0;
+                li{
+                    padding: 10px 0;
+                    font-family: "Poppins", sans-serif;
+                    color: #4C1E51;
+                }
+            }
+        }
+    }
+
+    .about-content{
+        background-color: #ffffff;
+        padding: 60px 0;
+        .about-in{
+            display: flex;
+            padding: 15px 0;
+            flex-wrap: wrap;
+            .about-caption{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                padding: 30px;
+                h2{
+                    color: #4C1E51;
+                    font-family: "Poppins", sans-serif;
+                }
+                p{
+                    font-family: "Open Sans", sans-serif;
+                }
+                ul{font-family: "Poppins", sans-serif;}
+            }
+            img{width: 50%; padding: 20px;}
+
+            &:nth-child(2) {
+                flex-direction: row-reverse;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .about-in{justify-content: center !important;}
+    .about-caption{width: 100% !important;}
+}

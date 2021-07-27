@@ -1,0 +1,76 @@
+@import 'Footer.scss';
+@import 'Navbar.scss';
+@import 'Animation.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); // Poppins google link font [Regular 400] 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap'); // Open-Sans google link font [Regular 400]
+
+
+*{
+    box-sizing: border-box !important;
+    a{
+        text-decoration: none;
+        outline: none !important;
+        &:focus{
+            box-shadow: none !important;
+        }
+    }
+    button{outline: none !important}
+}
+
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    margin-top: 52px;
+}
+
+.log-reg-content{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+.go-to-btn{
+    color: #ffffff;
+    padding: 5px 45px;
+    border: 1px solid #0038ee;
+    color: #0038ee;
+    font-family: "Poppins", sans-serif;
+    border-radius: 30px;
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+    &:hover{
+        background-color: #0038ee;
+        color: #ffffff;
+    }
+}
+
+.section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0; 
+    h2{
+        text-align: center;
+        color: #ffffff;
+        font-family: "Poppins", sans-serif;
+    }
+    p{
+        color: #A5A7C5;
+        max-width: 800px;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
+
+

@@ -1,0 +1,117 @@
+.contact-content{
+    .contact-us{
+        height: 400px;
+        background-color: #4C1E51;
+        h1{
+            color: #ffffff;
+            font-family: "Poppins", sans-serif;
+        }
+    }
+
+    .map-caption{
+        padding-top: 60px;
+        padding-bottom: 60px;
+        iframe{width: 100%;}
+    }
+
+    .touch-caption{
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-wrap: wrap !important;
+        .get-in-touch{
+            width: 70%;
+            .message{
+                width: 100%;
+                height: 200px;
+                resize: none;
+                outline: none;
+                padding: 3px 10px;
+            }
+            .user-label{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                margin: 15px 0 !important;
+                input{
+                    width: 45%;
+                    padding: 3px 10px;
+                }
+            }
+
+            .subject{
+                width: 100%;
+                margin-bottom: 20px;
+                padding: 3px 10px;
+            }
+        }
+        .contact-caption{
+            width: 30%;
+            ul{
+                padding-top: 28px; 
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                list-style: none !important;
+                li{
+                    display: flex;
+                    align-items: center !important;
+                    justify-content: flex-start;
+                    margin: 5px 0;
+                    width: 100%;
+                    i{width: 30px; height: 40px; font-size: 25px; margin-right: 10px; text-align: center;}
+                    a{font-size: 16px;}
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 991px) {
+    .touch-caption{flex-direction: column-reverse !important;}
+    .map-caption {padding: 30px 0 0 0 !important;}
+    .get-in-touch{width: 100% !important;}
+    .contact-caption{
+        width: 100% !important;
+        ul{
+            padding: 0;
+            margin: 20px 0;
+            flex-direction: row !important;
+            justify-content: space-around !important;
+            li{
+                width: 25% !important; 
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .contact-us{height: 200px !important;}
+    .contact-caption{
+        ul{
+            padding: 0;
+            margin: 20px 0;
+            justify-content: space-around !important;
+            flex-wrap: wrap;
+            li{
+                width: 100% !important; 
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 576px){
+    .get-in-touch{
+        .user-label{
+            flex-wrap: wrap;
+            input{
+                width: 100% !important;  
+                &:nth-child(1){
+                    margin-bottom: 15px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+
+
+.not-found-content{
+    height: 100vh;
+    .not-found{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h1{
+            font-family: "Poppins", sans-serif;
+            
+        }
+        h5{
+            color: #fa0000;
+            font-family: "Poppins", sans-serif;
+        }
+        a{
+            color: #ffffff;
+            font-family: "Poppins", sans-serif;
+            margin-top: 30px;
+        }
+    }
+}
